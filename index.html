@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navegacao">
+            <a class="logo-nav"><img src="style/logo.png" alt=""></a></h3>
+            <ul class="nav-menu">
+                <li class="nav-item"><a>HOME</a></li>
+                <li class="nav-item"><a>ABOUT</a></li>
+                <li class="nav-item"><a>MENU</a></li>
+                <li class="nav-item"><a>MORE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            
+            <div class="home-txt">
+                <h1 class="txt-h1">QUE TAL UMA NOVA<br> <span>PROPOSTA</span>?</h1>
+                <h2 class="txt-h2">Conheça nossa novidade, Starbucks.</h2>
+                <p>Do que adianta ter excelentes campanhas publicitárias ou ações de<br> marketing se o produto da empresa não for bom? Essa é uma prioridade da Starbucks desde a sua fundação.</p>
+                  
+                <div class="home-icones">
+                    <i  class='bx bxl-instagram'></i>
+                    <i  class='bx bxl-facebook-circle' ></i>
+                    <i  class='bx bxl-twitter' ></i>
+                </div>      
+            </div>
+          
+            <div class="img-home">
+                <img src="style/starbucks1.png" alt="">
+            </div>
+        </section>
+
+
+        <section class="login-page">
+            <div class="login-txt">
+                <h1 class="login-h1">FIQUE POR DENTRO DAS NOVIDADES</h1>
+                <P>Cadastre-se e receba dicas e novidades de nossa loja</P>
+            </div>
+            <div class="cad-page">
+                <input class="iptn" type="text" placeholder="Digite seu email...">
+                <button class="login-btn" onclick="mostrar()">Login</button>
+            </div>
+
+
+
+
+           <div class="janela" id="janela1">
+            <div class="conteudo">
+            <div class="btn-fechar" onclick="fechar(    )">&times;</div>
+                <h1 class="login-h1">CADASTRO</h1>
+                <h3 class="login-h3">Cadastro realizado com sucesso!</h3>
+            </div>
+           </div>
+           </div>
+            
+        </section>
+
+
+
+    </main>
+
+</body>
+    <script src="projeto.js"></script>
+</html>
