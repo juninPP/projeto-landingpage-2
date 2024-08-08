@@ -1,0 +1,34 @@
+.home {
+    padding: 0 8%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+}
+.home-txt {
+    max-width: 37rem;
+}
+.txt-h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.txt-h1 span {
+    color: green;
+}
+.txt-h2 {
+    font-size: 1.5rem;
+}
+.home-icones {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 5rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.home-icones:hover {
+    color: green;
+}
