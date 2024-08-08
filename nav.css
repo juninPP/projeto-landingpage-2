@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    width: 100%;
+    background: white;
+}
+.logo-nav {
+    max-width: 20px;
+    position: relative;
+    
+}
+.navegacao ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b3b3b;
+    transition: all 0.3s;
+}
+.nav-item:hover {
+    cursor: pointer;
+    scale: 1.1                                                                          ;
+    color: green;
+}
